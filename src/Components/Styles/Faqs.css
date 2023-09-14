@@ -1,0 +1,61 @@
+.Faq_heading{
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 6rem;
+}
+.accordion{
+    max-width: 700px;
+    margin-left: 220px;
+    scrollbar-gutter: fixed;
+}
+
+.Accordion-items{
+    background-color: transparent;
+    color: black;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid rgba(99, 98, 98, 0.6);
+    border-radius: 5px;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+}
+.sign{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.content{
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 10px;
+    font-family: 'Roboto',sans-serif;
+    padding-left: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.content.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+@media (max-width: 564px){
+    .qa{
+        margin-top: 3rem;
+        padding: 20px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    .content{
+        font-size: 13px;
+    }
+} 
