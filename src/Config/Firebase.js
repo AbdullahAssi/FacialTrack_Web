@@ -5,15 +5,15 @@ import { getDatabase } from "firebase/database";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyANgX9TDZFflcGlXPIGakGSgpTsAfzWg8s",
-    authDomain: "icat-86fa6.firebaseapp.com",
-    databaseURL: "https://icat-86fa6-default-rtdb.asia-southeast1.firebasedatabase.app/",
-    projectId: "icat-86fa6",
-    storageBucket: "icat-86fa6.appspot.com",
-    messagingSenderId: "529920973957",
-    appId: "1:529920973957:web:022591b239f7eeca93ddec",
-    measurementId: "G-YV0R76VYBB"
-};
+    apiKey: "AIzaSyBNqIaZ6CdE981-DOUUkZQbuj46Y0Wy0Yc",
+    authDomain: "icat22-778f4.firebaseapp.com",
+    databaseURL: "https://icat22-778f4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "icat22-778f4",
+    storageBucket: "icat22-778f4.appspot.com",
+    messagingSenderId: "325719455282",
+    appId: "1:325719455282:web:8dc44e2a385edb394e6e2b",
+    measurementId: "G-4S8612WLJE"
+  };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
