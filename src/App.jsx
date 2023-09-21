@@ -32,7 +32,7 @@ function App() {
     <div className="App">
     <BrowserRouter>
       <Routes>
-        {user ? (
+        {/* {user ? ( */}
           <Route
             path="/"
             element={ <Layout /> }
@@ -46,9 +46,9 @@ function App() {
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/calculator" element={<Calculator />} />
           </Route>
-        ) : (
+        {/* ) : (
           <Route path="/" element={<Login />} />
-        )}
+        )} */}
       </Routes>
     </BrowserRouter>
     </div>

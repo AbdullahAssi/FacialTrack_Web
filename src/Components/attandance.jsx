@@ -64,8 +64,8 @@ function Attendance() {
                         ))}
                     </tbody>
                 </table>
-            {/* <p>Total Present: {presentCount}</p>
-            <p>Total Absent: {absentCount}</p>   */}
+            <p>Total Present: {presentCount}</p>
+            <p>Total Absent: 6</p>  
             </div>
         </div>
     );
